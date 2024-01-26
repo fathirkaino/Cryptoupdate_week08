@@ -23,7 +23,7 @@ exchange = ccxt.binance({
     "testnet": True,  # Use Binance futures testnet
     "apiKey": binance_api_key,  # Use the user-inputted API key
     "secret": binance_api_secret,  # Use the user-inputted API secret
-    "enableRateLimit": True,  # Enable rate limiting for API requests
+    "enableRateLimit": False,  # Enable rate limiting for API requests
     "options": {
         "defaultType": "future",  # Use "future" for futures contracts
         "url": {"api": "https://testnet.binancefuture.com"},  # Set testnet API URL
